@@ -19,4 +19,4 @@ class ContactModelSerializer(serializers.ModelSerializer):
     """Contact Model Serializer"""
     class Meta:
         model = models.Contact
-        fields = ("first_name","middle_name","email","phone","mobile", "user")
+        fields = ("id","first_name","middle_name","email","phone","mobile", "user")
